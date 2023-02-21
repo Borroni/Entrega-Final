@@ -98,12 +98,104 @@
 }
 /*MEDIA DE GALERIA*/
 @media (max-width: 351px) {
-  .formulario {
-    width: 40%;
-    text-align: center;
-    border-radius: 3px;
-    color: black;
-    font-size: 1.5rem;
+  .galeria-titulo {
+    padding-top: 25px;
+  }
+  .imagenGaleria {
+    margin-left: 7%;
+  }
+  .h1-galeria {
+    display: none;
+  }
+}
+@media (min-width: 352px) and (max-width: 480px) {
+  .galeria-titulo {
+    padding-top: 25px;
+  }
+  .imagenGaleria {
+    margin-left: 15%;
+  }
+  .h1-galeria {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 600px) {
+  .galeria-titulo {
+    padding-top: 20px;
+  }
+  .imagenGaleria {
+    margin-left: 27%;
+    width: 400px;
+    height: 450px;
+  }
+  .h1-galeria {
+    display: none;
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  .galeria-titulo {
+    padding-top: 10px;
+  }
+  .imagenGaleria {
+    margin-left: 30%;
+    padding-top: 30px;
+    width: 400px;
+    height: 450px;
+  }
+  .h1-galeria {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 989px) {
+  .galeria-titulo {
+    padding-top: 20px;
+  }
+  .imagenGaleria {
+    margin-left: 12%;
+    width: 300px;
+    height: 350px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1024px) {
+  .galeria-titulo {
+    padding-top: 20px;
+  }
+  .imagenGaleria {
+    margin-left: 12%;
+    padding-bottom: 30px;
+    width: 300px;
+    height: 350px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .galeria-titulo {
+    padding-top: 20px;
+  }
+  .imagenGaleria {
+    margin-left: 11%;
+    padding-bottom: 30px;
+    width: 400px;
+    height: 450px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1300px) {
+  .galeria-titulo {
+    padding-top: 12px;
+  }
+  .imagenGaleria {
+    margin-left: 17%;
+    width: 400px;
+    height: 450px;
+  }
+}
+@media (min-width: 1301px) and (max-width: 1800px) {
+  .galeria-titulo {
+    padding-top: 20px;
+  }
+  .imagenGaleria {
+    margin-left: 4%;
+    width: 400px;
+    height: 450px;
   }
 }
 /*MEDIA DE RESERVAR TURNO*/
@@ -941,6 +1033,26 @@ html {
   background-attachment: fixed;
 }
 
+/*galeria*/
+.galeria-titulo {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  border: 3px solid white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  padding-top: 15px;
+}
+
+.imagenGaleria {
+  border-radius: 20px;
+  padding-top: 10px;
+  width: 300px;
+  height: 350px;
+}
+
 /*media de sobre nosotros*/
 @-webkit-keyframes sobre-nosotros-img-card {
   0% {
@@ -1036,27 +1148,6 @@ html {
   margin-left: 1.1%;
   margin-right: 2%;
   margin-bottom: 5%;
-}
-
-/*galeria*/
-.galeria-titulo {
-  height: 8rem;
-  display: flex;
-  justify-content: center;
-  border: 3px solid white;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 10%;
-  margin-top: 10%;
-  padding-top: 15px;
-}
-
-.imagenGaleria {
-  border-radius: 20px;
-  padding-top: 10px;
-  margin-left: 11px;
-  width: 400px;
-  height: 450px;
 }
 
 /*reservar turno*/
