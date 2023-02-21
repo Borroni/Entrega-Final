@@ -1,0 +1,1637 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/*header*/
+.header {
+    background-color: black;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.texto-header {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.texto-header:hover {
+    background-color: rgb(97, 118, 118);
+    border-radius: 5px;
+
+    color: white;
+}
+
+.logoHeader {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+/*main index*/
+
+.card-index {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+    text-align: center;
+    border-radius: 30px;
+    opacity: 90%;
+
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+
+    -webkit-animation: card-index 4s linear infinite alternate both;
+    animation: card-index 4s linear infinite alternate both;
+}
+
+@-webkit-keyframes card-index {
+    0% {
+        background: #77878B;
+    }
+
+    25% {
+        background: #305252;
+    }
+
+    50% {
+        background: #373E40;
+    }
+
+    75% {
+        background: #488286;
+    }
+
+    100% {
+        background: #B7D5D4;
+    }
+}
+
+@keyframes card-index {
+    0% {
+        background: #77878B;
+    }
+
+    25% {
+        background: #305252;
+    }
+
+    50% {
+        background: #373E40;
+    }
+
+    75% {
+        background: #488286;
+    }
+
+    100% {
+        background: #3F605F;
+    }
+}
+
+
+.contenedor-img {
+    width: 400px;
+    height: 400px;
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.h1-index {
+    font-size: 4rem;
+    padding-bottom: 10px;
+    font-family: "Gajraj One", cursive;
+    color: whitesmoke;
+}
+
+.p1-index {
+    font-size: 2rem;
+    padding: 20px;
+    font-family: "Gajraj One", cursive;
+    color: whitesmoke;
+}
+
+.body {
+    background-image: url(/imagenes/lugar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+/*media de sobre nosotros*/
+
+.img-carrousel {
+    width: 25%;
+    height: 50%;
+    border: black 5px solid;
+    opacity: 85%;
+    border-radius: 20px;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+
+}
+
+.sobre-nosotros-img-card {
+    -webkit-animation: sobre-nosotros-img-card 5s ease-out infinite both;
+    animation: sobre-nosotros-img-card 5s ease-out infinite both;
+}
+
+@-webkit-keyframes sobre-nosotros-img-card {
+    0% {
+        -webkit-transform: rotate(-540deg) scale(0);
+        transform: rotate(-540deg) scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes sobre-nosotros-img-card {
+    0% {
+        -webkit-transform: rotate(-540deg) scale(0);
+        transform: rotate(-540deg) scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.sobre-nosotros-card {
+    background-color: #358f80;
+    border-radius: 20px;
+}
+
+
+.fondo-main {
+    margin-bottom: 34px;
+}
+
+.sobre-nosotros-animacion-h1 {
+    -webkit-animation: sobre-nosotros-animacion-h1 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate-reverse both;
+    animation: sobre-nosotros-animacion-h1 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate-reverse both;
+}
+
+@-webkit-keyframes sobre-nosotros-animacion-h1 {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+
+@keyframes sobre-nosotros-animacion-h1 {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+
+
+/*servicio*/
+
+.servicio-img-card {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20px 20px;
+
+    margin-top: 30px;
+}
+
+.video {
+    margin-left: 1.1%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+/*galeria*/
+
+.galeria-titulo {
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding-top: 15px;
+}
+
+.imagenGaleria {
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-left: 11px;
+    width: 400px;
+    height: 450px;
+}
+
+
+
+/*reservar turno*/
+
+.reservarturno-h1 {
+    font-size: 4rem;
+    margin-left: 5%;
+    font-family: "Gajraj One", cursive;
+    color: whitesmoke;
+}
+
+.reservarturno-h3 {
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    font-family: "Gajraj One", cursive;
+    color: whitesmoke;
+}
+
+.reservarturno-ubicacion {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "Gajraj One", cursive;
+    -webkit-animation: creservarturno-ubicacion 4s linear infinite alternate both;
+    animation: reservarturno-ubicacion 4s linear infinite alternate both;
+}
+
+
+
+
+@-webkit-keyframes reservarturno-ubicacion {
+    0% {
+        background: #77878B;
+    }
+
+    25% {
+        background: #305252;
+    }
+
+    50% {
+        background: #373E40;
+    }
+
+    75% {
+        background: #488286;
+    }
+
+    100% {
+        background: #B7D5D4;
+    }
+}
+
+@keyframes reservarturno-ubicacion {
+    0% {
+        background: #77878B;
+    }
+
+    25% {
+        background: #305252;
+    }
+
+    50% {
+        background: #373E40;
+    }
+
+    75% {
+        background: #488286;
+    }
+
+    100% {
+        background: #B7D5D4;
+    }
+}
+
+.formulario {
+    width: 40%;
+    text-align: center;
+    border-radius: 3px;
+    color: black;
+    font-size: 1.5rem;
+    opacity: 95%;
+}
+
+.reservarturno-colo-boton {
+
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    -webkit-animation: creservarturno-ubicacion 4s linear infinite alternate both;
+    animation: reservarturno-ubicacion 4s linear infinite alternate both;
+}
+
+.reservarturno-color-texto-formuladio {
+    color: rgb(66, 57, 57);
+}
+
+
+@-webkit-keyframes reservarturno-ubicacion {
+    0% {
+        background: #77878B;
+    }
+
+    25% {
+        background: #305252;
+    }
+
+    50% {
+        background: #373E40;
+    }
+
+    75% {
+        background: #488286;
+    }
+
+    100% {
+        background: #B7D5D4;
+    }
+}
+
+@keyframes reservarturno-ubicacion {
+    0% {
+        background: #77878B;
+    }
+
+    25% {
+        background: #305252;
+    }
+
+    50% {
+        background: #373E40;
+    }
+
+    75% {
+        background: #488286;
+    }
+
+    100% {
+        background: #B7D5D4;
+    }
+}
+
+.reservarturno-fondo {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    text-align: center;
+    opacity: 90%;
+    -webkit-animation: rreservarturno-fondo 4s linear infinite alternate both;
+    animation: reservarturno-fondo 4s linear infinite alternate both;
+}
+
+@-webkit-keyframes reservarturno-fondo {
+    0% {
+        background: #77878B;
+    }
+
+    25% {
+        background: #305252;
+    }
+
+    50% {
+        background: #373E40;
+    }
+
+    75% {
+        background: #488286;
+    }
+
+    100% {
+        background: #B7D5D4;
+    }
+}
+
+@keyframes reservarturno-fondo {
+    0% {
+        background: #77878B;
+    }
+
+    25% {
+        background: #305252;
+    }
+
+    50% {
+        background: #373E40;
+    }
+
+    75% {
+        background: #488286;
+    }
+
+    100% {
+        background: #B7D5D4;
+    }
+}
+
+/*MEDIAS DE INDEX*/
+@media (max-width: 351px) {
+    .logoHeader {
+        margin-left: 20px;
+    }
+
+    .contenedor-img {
+        display: none;
+    }
+
+    .text-footer {
+        display: none;
+    }
+
+    .card-index {
+        margin-top: 30px;
+    }
+
+    .h1-index {
+        font-size: 2rem;
+    }
+
+    .p1-index {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 352px) and (max-width: 480px) {
+    .logoHeader {
+        margin-left: 20px;
+    }
+
+    .contenedor-img {
+        width: 311px;
+        height: 300px;
+    }
+
+    .text-footer {
+        display: none;
+    }
+
+    .card-index {
+        margin-top: 30px;
+    }
+
+    .h1-index {
+        font-size: 2.5rem;
+    }
+
+    .p1-index {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .logoHeader {
+        margin-left: 20px;
+    }
+
+    .text-footer {
+        display: none;
+    }
+
+    .card-index {
+        margin-top: 30px;
+    }
+
+    .text-footer {
+        display: none;
+    }
+
+    .h1-index {
+        font-size: 3rem;
+    }
+
+    .p1-index {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .logoHeader {
+        margin-left: 20px;
+    }
+
+    .text-footer {
+        display: none;
+    }
+
+    .card-index {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logoHeader {
+        margin-left: 20px;
+    }
+
+    .text-footer {
+        display: none;
+    }
+
+    .card-index {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .logoHeader {
+        margin-left: 20px;
+    }
+
+    .card-index {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1800px) {
+    .logoHeader {
+        margin-left: 20px;
+    }
+
+    .card-index {
+        margin-top: 50px;
+    }
+}
+
+/*MEDIA DE SOBRE NOSOTROS*/
+
+@media (max-width: 351px) {
+    .sobre-nosotros-carousel {
+        display: none;
+    }
+
+    .sobre-nosotros-card {
+        width: 250px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+
+        padding: 10px;
+    }
+
+    .sobre-nosotros-img-card {
+        display: none;
+    }
+
+    .sobre-nosotros-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-text-titulo {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-contenedor-texto {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 352px) and (max-width: 480px) {
+    .sobre-nosotros-carousel {
+        display: none;
+    }
+
+    .sobre-nosotros-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-text-titulo {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-card {
+        width: 300px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+        padding: 10px;
+    }
+
+    .sobre-nosotros-img-card {
+        display: none;
+    }
+
+    .sobre-nosotros-text {
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .sobre-nosotros-carousel {
+        display: none;
+    }
+
+    .sobre-nosotros-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-text-titulo {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-card {
+        width: 250px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+        padding: 10px;
+    }
+
+    .sobre-nosotros-img-card {
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .sobre-nosotros-text {
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .img-carrousel {
+        width: 50%;
+        border: black 5px solid;
+        opacity: 85%;
+        margin-bottom: 20px;
+    }
+
+    .sobre-nosotros-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-text-titulo {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-card {
+        width: 200px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+        padding: 10px;
+    }
+
+    .sobre-nosotros-img-card {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .sobre-nosotros-text {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .sobre-nosotros-carousel {
+        margin-bottom: 50px;
+    }
+
+    .sobre-nosotros-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-text-titulo {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .img-carrousel {
+        width: 50%;
+        border: black 5px solid;
+        opacity: 85%;
+        margin-bottom: 20px;
+    }
+
+    .sobre-nosotros-card {
+        width: 300px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+
+        padding: 10px;
+    }
+
+    .sobre-nosotros-img-card {
+        width: 190%;
+        margin-left: 10%;
+        margin-top: 70px;
+        margin-bottom: 15px;
+
+    }
+
+    .sobre-nosotros-text {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+    .sobre-nosotros-carousel {
+        margin-bottom: 50px;
+    }
+
+    .sobre-nosotros-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-text-titulo {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .img-carrousel {
+        width: 50%;
+        border: black 5px solid;
+        opacity: 85%;
+        margin-bottom: 20px;
+    }
+
+    .sobre-nosotros-card {
+        width: 300px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+
+        padding: 10px;
+    }
+
+    .sobre-nosotros-img-card {
+        width: 90%;
+        margin-left: 30%;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .sobre-nosotros-text {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .sobre-nosotros-carousel {
+        margin-bottom: 50px;
+    }
+
+    .sobre-nosotros-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-text-titulo {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .img-carrousel {
+        width: 50%;
+        border: black 5px solid;
+        opacity: 85%;
+        margin-bottom: 20px;
+    }
+
+    .sobre-nosotros-card {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .sobre-nosotros-img-card {
+        width: 90%;
+        margin-left: 20%;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .sobre-nosotros-text {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1800px) {
+    .sobre-nosotros-carousel {
+        margin-bottom: 50px;
+    }
+
+    .img-carrousel {
+        width: 40%;
+        border: black 5px solid;
+        opacity: 85%;
+        margin-bottom: 20px;
+    }
+
+    .sobre-nosotros-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-text-titulo {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        font-family: "Gajraj One", cursive;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .sobre-nosotros-card {
+        width: 500px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+
+        padding: 10px;
+    }
+
+    .sobre-nosotros-img-card {
+        width: 90%;
+        margin-left: 20%;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    .sobre-nosotros-text {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 50px;
+    }
+}
+
+
+/*MEDIA DE SERVICIO*/
+
+@media (max-width: 351px) {
+
+    .video {
+        display: none;
+    }
+
+    .servicio-img-card {
+        display: none;
+    }
+
+
+
+}
+
+@media (min-width: 352px) and (max-width: 480px) {
+
+
+    .video {
+        display: none;
+    }
+
+    .servicio-img-card {
+
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+
+    .video {
+        width: 400px;
+        height: 400px;
+
+        margin-left: 17%;
+    }
+
+
+    .servicio-img-card {
+
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .video {
+        width: 400px;
+        height: 400px;
+
+        margin-left: 25%;
+    }
+
+    .servicio-img-card {
+
+        width: 150px;
+        height: 150px;
+        border-radius: 10px 10px;
+
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .servicio-card-tex {
+        margin-left: 15px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 989px) {
+
+
+    .video {
+        width: 400px;
+        height: 400px;
+
+        margin-left: 25%;
+    }
+
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+    .video {
+        width: 400px;
+        height: 400px;
+
+        margin-left: 30%;
+    }
+
+    .sobre-nosotros-card {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .video {
+        width: 400px;
+        height: 400px;
+
+        margin-left: 30%;
+    }
+
+    .sobre-nosotros-card {
+        margin-left: 23%;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1800px) {
+    .video {
+        width: 400px;
+        height: 400px;
+
+        margin-left: 5.5%;
+    }
+
+}
+
+
+
+/*MEDIA DE SERVICIO*/
+
+@media (max-width: 351px) {
+    .formulario {
+        width: 40%;
+        text-align: center;
+        border-radius: 3px;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (min-width: 352px) and (max-width: 480px) {
+    .galeria-titulo {
+        padding-top: 25px;
+    }
+
+    .imagenGaleria {
+        margin-left: 20%;
+        width: 300px;
+        height: 350px;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .galeria-titulo {
+        padding-top: 20px;
+    }
+
+    .imagenGaleria {
+        margin-left: 20%;
+        width: 400px;
+        height: 450px;
+    }
+
+
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .galeria-titulo {
+        padding-top: 10px;
+    }
+
+    .imagenGaleria {
+        margin-left: 20%;
+        padding-top: 30px;
+        width: 400px;
+        height: 450px;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 989px) {
+    .galeria-titulo {
+        padding-top: 20px;
+    }
+
+    .imagenGaleria {
+        margin-left: 12%;
+        padding-bottom: 30px;
+        width: 300px;
+        height: 350px;
+    }
+
+}
+
+@media (min-width: 990px) and (max-width: 1024px) {
+    .galeria-titulo {
+        padding-top: 20px;
+    }
+
+    .imagenGaleria {
+        margin-left: 12%;
+        padding-bottom: 30px;
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .galeria-titulo {
+        padding-top: 20px;
+    }
+
+    .imagenGaleria {
+        margin-left: 11%;
+        padding-bottom: 30px;
+        width: 400px;
+        height: 450px;
+    }
+}
+
+/*MEDIA DE RESERVAR TURNO*/
+
+
+@media (max-width: 351px) {
+    .reservarturno-h1 {
+        font-size: 2rem;
+
+        padding-top: 5px;
+        padding-left: 5px;
+
+        color: whitesmoke;
+    }
+
+    .reservarturno-fondo {
+        width: 75%;
+        margin-left: 12%;
+    }
+
+    .reservarturno-h3 {
+        display: none;
+    }
+
+    .formulario {
+        width: 80%;
+        text-align: center;
+        border-radius: 3px;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .reservarturno-colo-boton {
+        background-color: #3a6073;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+
+}
+
+@media (min-width: 352px) and (max-width: 480px) {
+    .reservarturno-h1 {
+        font-size: 2rem;
+
+        padding-top: 5px;
+        padding-left: 5px;
+
+        color: whitesmoke;
+    }
+
+    .reservarturno-fondo {
+        width: 75%;
+        margin-left: 12%;
+    }
+
+    .reservarturno-h3 {
+        display: none;
+    }
+
+    .formulario {
+        width: 80%;
+        text-align: center;
+        border-radius: 3px;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .reservarturno-colo-boton {
+        background-color: #3a6073;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .reservarturno-h1 {
+        font-size: 3rem;
+
+        padding-top: 5px;
+        padding-left: 5px;
+
+        color: whitesmoke;
+    }
+
+    .reservarturno-fondo {
+        width: 75%;
+        margin-left: 12%;
+    }
+
+    .reservarturno-h3 {
+        font-size: 2rem;
+        margin-left: 3%;
+
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .formulario {
+        width: 80%;
+        text-align: center;
+        border-radius: 3px;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .reservarturno-colo-boton {
+        background-color: #3a6073;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+
+
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .reservarturno-h1 {
+        font-size: 3rem;
+        padding-top: 5px;
+        padding-left: 5px;
+
+        color: whitesmoke;
+    }
+
+    .reservarturno-fondo {
+        width: 75%;
+        margin-left: 12%;
+    }
+
+    .reservarturno-h3 {
+        font-size: 2rem;
+        margin-left: 3%;
+
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .formulario {
+        width: 80%;
+        text-align: center;
+        border-radius: 3px;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .reservarturno-colo-boton {
+        background-color: #3a6073;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 989px) {
+    .reservarturno-h1 {
+        font-size: 3rem;
+        margin-left: 32%;
+        padding-top: 5px;
+        padding-left: 5px;
+
+        color: whitesmoke;
+    }
+
+    .reservarturno-fondo {
+        width: 75%;
+        margin-left: 12%;
+    }
+
+
+    .reservarturno-h3 {
+        font-size: 2rem;
+        margin-left: 3%;
+
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .formulario {
+        width: 77%;
+        text-align: center;
+        border-radius: 3px;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .reservarturno-colo-boton {
+        background-color: #3a6073;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 10%;
+    }
+
+}
+
+@media (min-width: 990px) and (max-width: 1024px) {
+    .reservarturno-h1 {
+        font-size: 3rem;
+
+        padding-top: 5px;
+        padding-left: 5px;
+
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .reservarturno-fondo {
+
+        width: 75%;
+        margin-left: 12%;
+    }
+
+    .reservarturno-h3 {
+        font-size: 2rem;
+        margin-left: 5%;
+
+        color: whitesmoke;
+        text-align: center;
+
+    }
+
+    .formulario {
+        width: 77%;
+        text-align: center;
+        border-radius: 3px;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .reservarturno-colo-boton {
+        background-color: #3a6073;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .reservarturno-h1 {
+        font-size: 4rem;
+        margin-left: 5%;
+
+        color: whitesmoke;
+    }
+
+    .reservarturno-h3 {
+        font-size: 2rem;
+        margin-left: 5%;
+
+        color: whitesmoke;
+
+    }
+
+    .formulario {
+        width: 77%;
+        text-align: center;
+        border-radius: 3px;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .reservarturno-colo-boton {
+        background-color: #3a6073;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+
+    .reservarturno-fondo {
+        text-align: center;
+        margin-left: 20%;
+        margin-bottom: 20px;
+        border-radius: 50px;
+    }
+}
+
+
+
+
+
+/*FOOTER GENERAL*/
+
+.footer {
+    padding: 10px;
+    background-color: black;
+}
+
+.logo-footer {
+    height: 100px;
+    width: 100px;
+    border-radius: 70px;
+
+    -webkit-animation: logo-footer 2s infinite backwards;
+    animation: logo-footer 2s infinite backwards;
+}
+
+@-webkit-keyframes logo-footer {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes logo-footer {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.logo-redes {
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    -webkit-animation: logo-redes 2s infinite both;
+    animation: logo-redes 2s infinite both;
+}
+
+@-webkit-keyframes logo-redes {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        -webkit-transform: translateX(-30px) rotate(-6deg);
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        -webkit-transform: translateX(15px) rotate(6deg);
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        -webkit-transform: translateX(-15px) rotate(-3.6deg);
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        -webkit-transform: translateX(9px) rotate(2.4deg);
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        -webkit-transform: translateX(-6px) rotate(-1.2deg);
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+@keyframes logo-redes {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        -webkit-transform: translateX(-30px) rotate(-6deg);
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        -webkit-transform: translateX(15px) rotate(6deg);
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        -webkit-transform: translateX(-15px) rotate(-3.6deg);
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        -webkit-transform: translateX(9px) rotate(2.4deg);
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        -webkit-transform: translateX(-6px) rotate(-1.2deg);
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+.texto-footer {
+    font-size: 1.5rem;
+}
+
+.contenedor-footer {
+    padding-left: 10%;
+}
+
+.ul-footer {
+    padding-top: 15px;
+}
+
+.text-footer {
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Gajraj One", cursive;
+}
