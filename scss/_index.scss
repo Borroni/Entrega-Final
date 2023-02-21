@@ -1,0 +1,75 @@
+/*index*/
+@-webkit-keyframes card-index {
+	0% {
+		background: #77878B;
+	}
+	25% {
+		background: #305252;
+	}
+	50% {
+		background: #373E40;
+	}
+	75% {
+		background: #488286;
+	}
+	100% {
+		background: #B7D5D4;
+	}
+}
+@keyframes card-index {
+	0% {
+		background: #77878B;
+	}
+	25% {
+		background: #305252;
+	}
+	50% {
+		background: #373E40;
+	}
+	75% {
+		background: #488286;
+	}
+	100% {
+		background: #3F605F;
+	}
+}
+.card-index {
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+	border-radius: 30px;
+	opacity: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 1%;
+	-webkit-animation: card-index 4s linear infinite alternate both;
+	animation: card-index 4s linear infinite alternate both;
+}
+.contenedor-img {
+	width: 400px;
+	height: 400px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.h1-index {
+	font-size: 4rem;
+	padding-bottom: 10px;
+	font-family: $font-family_1;
+	color: $color_1;
+}
+.p1-index {
+	font-size: 2rem;
+	padding: 20px;
+	font-family: $font-family_1;
+	color: $color_1;
+}
+.body {
+	background-image: url(/imagenes/lugar.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}

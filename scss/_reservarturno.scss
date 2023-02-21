@@ -1,0 +1,153 @@
+/*reservar turno*/
+@-webkit-keyframes reservarturno-ubicacion {
+	0% {
+		background: #77878B;
+	}
+	25% {
+		background: #305252;
+	}
+	50% {
+		background: #373E40;
+	}
+	75% {
+		background: #488286;
+	}
+	100% {
+		background: #B7D5D4;
+	}
+}
+@keyframes reservarturno-ubicacion {
+	0% {
+		background: #77878B;
+	}
+	25% {
+		background: #305252;
+	}
+	50% {
+		background: #373E40;
+	}
+	75% {
+		background: #488286;
+	}
+	100% {
+		background: #B7D5D4;
+	}
+}
+@-webkit-keyframes reservarturno-ubicacion {
+	0% {
+		background: #77878B;
+	}
+	25% {
+		background: #305252;
+	}
+	50% {
+		background: #373E40;
+	}
+	75% {
+		background: #488286;
+	}
+	100% {
+		background: #B7D5D4;
+	}
+}
+@keyframes reservarturno-ubicacion {
+	0% {
+		background: #77878B;
+	}
+	25% {
+		background: #305252;
+	}
+	50% {
+		background: #373E40;
+	}
+	75% {
+		background: #488286;
+	}
+	100% {
+		background: #B7D5D4;
+	}
+}
+@-webkit-keyframes reservarturno-fondo {
+	0% {
+		background: #77878B;
+	}
+	25% {
+		background: #305252;
+	}
+	50% {
+		background: #373E40;
+	}
+	75% {
+		background: #488286;
+	}
+	100% {
+		background: #B7D5D4;
+	}
+}
+@keyframes reservarturno-fondo {
+	0% {
+		background: #77878B;
+	}
+	25% {
+		background: #305252;
+	}
+	50% {
+		background: #373E40;
+	}
+	75% {
+		background: #488286;
+	}
+	100% {
+		background: #B7D5D4;
+	}
+}
+.reservarturno-h1 {
+	font-size: 4rem;
+	margin-left: 5%;
+	font-family: $font-family_1;
+	color: $color_1;
+}
+.reservarturno-h3 {
+	font-size: 3rem;
+	margin-left: 5%;
+	margin-bottom: 25px;
+	padding-top: 20px;
+	font-family: $font-family_1;
+	color: $color_1;
+}
+.reservarturno-ubicacion {
+	color: $color_3;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+	font-family: $font-family_1;
+	-webkit-animation: creservarturno-ubicacion 4s linear infinite alternate both;
+	animation: reservarturno-ubicacion 4s linear infinite alternate both;
+}
+.formulario {
+	width: 40%;
+	text-align: center;
+	border-radius: 3px;
+	color: $color_2;
+	font-size: 1.5rem;
+	opacity: 95%;
+}
+.reservarturno-colo-boton {
+	color: $color_3;
+	font-size: 20px;
+	margin-left: 5px;
+	-webkit-animation: creservarturno-ubicacion 4s linear infinite alternate both;
+	animation: reservarturno-ubicacion 4s linear infinite alternate both;
+}
+.reservarturno-color-texto-formuladio {
+	color: $color_4;
+}
+.reservarturno-fondo {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	text-align: center;
+	opacity: 90%;
+	-webkit-animation: rreservarturno-fondo 4s linear infinite alternate both;
+	animation: reservarturno-fondo 4s linear infinite alternate both;
+}
