@@ -18,14 +18,14 @@
 	.p1-index {
 		font-size: 1rem;
 	}
+
 }
 @media (min-width: 352px) and (max-width: 480px) {
 	.logoHeader {
 		margin-left: 20px;
 	}
 	.contenedor-img {
-		width: 311px;
-		height: 300px;
+		display: none;
 	}
 	.text-footer {
 		display: none;
@@ -39,6 +39,7 @@
 	.p1-index {
 		font-size: 1.5rem;
 	}
+
 }
 @media (min-width: 481px) and (max-width: 600px) {
 	.logoHeader {
@@ -107,9 +108,6 @@
 		margin-left: 7%;
 	}
 	.h1-galeria{
-		display: none;
-	}
-	.reservarturno-h1{
 		display: none;
 	}
 }
@@ -206,6 +204,16 @@
 		height: 450px;
 	}
 }
+@media (min-width: 1301px) and (max-width: 2500px) {
+	.galeria-titulo {
+		padding-top: 20px;
+	}
+	.imagenGaleria {
+		margin-left: 7%;
+		width: 400px;
+		height: 450px;
+	}
+}
 
 /*MEDIA DE RESERVAR TURNO*/
 @media (max-width: 351px) {
@@ -215,26 +223,26 @@
 		padding-left: 5px;
 		color: $color_1;
 	}
-	.reservarturno-fondo {
-		width: 75%;
-		margin-left: 12%;
-	}
+
 	.reservarturno-h3 {
 		display: none;
 	}
 	.formulario {
-		width: 80%;
-		text-align: center;
-		border-radius: 3px;
-		color: $color_2;
-		font-size: 1.5rem;
+
+display: none;
+
 	}
 	.reservarturno-colo-boton {
 		background-color: $background-color_1;
 		color: $color_3;
 		font-size: 1.5rem;
-		margin-left: 5px;
+
+		width: 200px;
 	}
+	.reservarturno-h1{
+		display: none;
+	}
+
 }
 @media (min-width: 352px) and (max-width: 480px) {
 	.reservarturno-h1 {
@@ -261,28 +269,29 @@
 		background-color: $background-color_1;
 		color: $color_3;
 		font-size: 1.5rem;
-		margin-left: 5px;
+		margin-left: 1px;
+		width: 200px;
+		margin-bottom: 10px;
+	}
+	.reservarturno-h1{
+		display: none;
 	}
 }
 @media (min-width: 481px) and (max-width: 600px) {
 	.reservarturno-h1 {
-		font-size: 3rem;
+		font-size: 1rem;
 		padding-top: 5px;
 		padding-left: 5px;
 		color: $color_1;
 	}
-	.reservarturno-fondo {
-		width: 75%;
-		margin-left: 12%;
-	}
+
 	.reservarturno-h3 {
-		font-size: 2rem;
+		font-size: 1rem;
 		margin-left: 3%;
 		color: $color_1;
 		text-align: center;
 	}
 	.formulario {
-		width: 80%;
 		text-align: center;
 		border-radius: 3px;
 		color: $color_2;
@@ -293,6 +302,9 @@
 		color: $color_3;
 		font-size: 1.5rem;
 		margin-left: 5px;
+	}
+	.reservarturno-fondo{
+		margin-right: -100px;
 	}
 }
 @media (min-width: 601px) and (max-width: 768px) {
@@ -431,12 +443,18 @@
 	.servicio-img-card {
 		display: none;
 	}
+	.h1-index{
+		display: none;
+	}
 }
 @media (min-width: 352px) and (max-width: 480px) {
 	.video {
 		display: none;
 	}
 	.servicio-img-card {
+		display: none;
+	}
+	.h1-index{
 		display: none;
 	}
 }
@@ -450,6 +468,16 @@
 		margin-left: 10px;
 		margin-bottom: 5px;
 	}
+	.sobre-nosotros-animacion-h1{
+		display: none;
+	}
+
+	.video{
+		margin-left: 18%;
+	}
+	.sobre-nosotros-img-card{
+		display: none;
+	}
 }
 @media (min-width: 601px) and (max-width: 768px) {
 	.video {
@@ -458,49 +486,75 @@
 		margin-left: 25%;
 	}
 	.servicio-img-card {
-		width: 150px;
-		height: 150px;
-		border-radius: 10px 10px;
-		margin-top: 20px;
-		margin-left: 15px;
+
+
+display: none;
 	}
 	.servicio-card-tex {
 		margin-left: 15px;
 	}
 }
-@media (min-width: 768px) and (max-width: 989px) {
+@media (min-width: 769px) and (max-width: 989px) {
 	.video {
-		width: 400px;
-		height: 400px;
-		margin-left: 25%;
+		width: 300px;
+		height: 300px;
+		margin-left: 30%;
 	}
 }
-@media (min-width: 991px) and (max-width: 1024px) {
+@media (min-width: 990px) and (max-width: 1024px) {
 	.video {
-		width: 400px;
-		height: 400px;
-		margin-left: 30%;
+		width: 300px;
+		height: 300px;
+		margin-left: 35%;
 	}
 	.sobre-nosotros-card {
 		margin-left: 10px;
 	}
 }
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
 	.video {
-		width: 400px;
-		height: 400px;
-		margin-left: 30%;
+		width: 300px;
+		height: 300px;
+		margin-left: 35%;
 	}
-	.sobre-nosotros-card {
-		margin-left: 23%;
-	}
+
 }
 @media (min-width: 1201px) and (max-width: 1800px) {
 	.video {
-		width: 400px;
-		height: 400px;
-		margin-left: 5.5%;
+		width: 300px;
+		height: 300px;
+		margin-left: 6%;
+		margin-bottom: 10px;
 	}
+	
+}
+
+@media (min-width: 1801px) and (max-width: 2500px) {
+	.video {
+		width: 300px;
+		height: 300px;
+		margin-left: 13%;
+	}
+	.sobre-nosotros-card {
+		margin-left: 4%;
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.sobre-nosotros-text {
+		font-size: 2rem;
+		padding-bottom: 10px;
+		font-family: $font-family_1;
+		color: $color_1;
+		text-align: center;
+	}
+	.sobre-nosotros-text-titulo {
+		font-size: 3rem;
+		padding-bottom: 5px;
+		font-family: $font-family_1;
+		color: $color_1;
+		text-align: center;
+	}
+	
 }
 
 
